@@ -1,11 +1,14 @@
 import React from 'react'
 import Header from '../components/Header'
+import Steps from '../components/Steps'
+import BgSlider from '../components/BgSlider'
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <p>This is home page.</p>
+      <Steps/>
+      <BgSlider/>
     </div>
   )
 }
