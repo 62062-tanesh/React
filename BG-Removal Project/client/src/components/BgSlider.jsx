@@ -3,7 +3,7 @@ import { assets } from '../assets/File/assets'
 
 const BgSlider = () => {
 
-    const [sliderPosition, setSliderPosition] = useState(60)
+    const [sliderPosition, setSliderPosition] = useState(50)
     const handleSliderChange = (e) => {
         setSliderPosition(e.target.value)
     }
