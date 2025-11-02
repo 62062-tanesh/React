@@ -1,12 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "server.js": {
-      "runtime": "vercel-nodejs@3.0.0",
+    "api/server.js": {
       "includeFiles": "dist/**"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "BG-Removal Project/server/server.js" }
+    { "src": "/(.*)", "dest": "/api/server.js" }
   ]
 }
