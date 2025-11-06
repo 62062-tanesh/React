@@ -1,4 +1,5 @@
 import {Webhook} from "svix";
+import userModel from "../models/userModel.js";
 // API controller Function to Manage clerk User
 // http://localhost:4000/api/user/webhook
 
@@ -9,7 +10,7 @@ const clerkWebhooks = async (req, res) => {
 
             const whook = new Webhook(process.env.CLERK_WEBHOOK_SECRET)
 
-            await whook.verify(JSON.stringify(req,body),{
+            await whook.verify(JSON.stringify(req.body),{
                 "svix-id":req.headers["svix-id"],
                 "svix-timestamp":req.headers["svix-timestamp"],
                 "svix-signature":req.headers["svix-signature"]
@@ -21,7 +22,7 @@ const clerkWebhooks = async (req, res) => {
                 case "user.created":{
                     const userData = {
                         clerkId: data.id,
-                        email: data.email_addresses[0].email_addresse,
+                        email: data.email_addresses[0].email_address,
                         firstName: data.first_name,
                         lastName: data.last_name,
                         photo: data.image_url,
@@ -36,8 +37,7 @@ const clerkWebhooks = async (req, res) => {
                 case "user.updated":{
 
                     const userData = {
-                        clerkId: data.id,
-                        email: data.email_addresses[0].email_addresse,
+                        email: data.email_addresses[0].email_address,
                         firstName: data.first_name,
                         lastName: data.last_name,
                         photo: data.image_url,
@@ -53,6 +53,7 @@ const clerkWebhooks = async (req, res) => {
 
                     await userModel.findOneAndDelete({clerk:data.id})
                     res.json({})
+
                     break;
                 }
                 default:
