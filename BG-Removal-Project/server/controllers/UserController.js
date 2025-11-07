@@ -6,7 +6,7 @@ import userModel from "../models/userModel.js";
 const clerkWebhooks = async (req, res) => {
         try {
             
-            //Create a svix instance with clerk webhook
+            //Create a svix instance with clerk webhook secret
 
             const whook = new Webhook(process.env.CLERK_WEBHOOK_SECRET)
 
@@ -62,9 +62,7 @@ const clerkWebhooks = async (req, res) => {
 
         } catch (error) {
             console.log(error.message)
-            res.json({
-                succuss:false,message:error.message
-            })
+            res.json({succuss:false,message:error.message})
         }
 }
 
