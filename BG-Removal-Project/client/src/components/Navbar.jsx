@@ -28,6 +28,7 @@ const Navbar = () => {
             <img className="w-5" src={assets.credit_icon} alt="" />
             <p className="text-xs sm:text-sm font-medium text-gray-600">Credits : {credit}</p>
           </button>
+          <p className="text-gray-600 max-sm:hidden">Hi, {user.fullName}</p>
           <UserButton />
         </div>
       ) : (
