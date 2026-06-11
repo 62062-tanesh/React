@@ -13,12 +13,83 @@ body{
 .card{
   margin: 20px;
   padding: 30px;
-height: 300px;
-width: 400px;
-background-color: #3c1a1a;
+height: 400px;
+width: 300px;
+background-color: #909090;
 border-radius: 20px;
-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
-.card top{
-  
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 4px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: white;
+}
+
+.center h3{
+color: #ffffff;
+font-size: 18px;
+font-weight: 500;
+}
+.center h3 span{
+  font-size: 10px;
+  color: #212121;
+  font-weight: 600;
+}
+.center h2{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.center .tag{
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.center .tag h4{
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 3px 6px  ;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid white;
+  padding: 15px 0;
+  color: white;
+}
+
+.bottom button{
+  background-color: rgb(255, 255, 255);
+  color: ba;
+  border-radius: 5px;
+  padding: 5px;
 }
