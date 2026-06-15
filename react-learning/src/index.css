@@ -10,11 +10,13 @@ body{
   width: 100%;
   background-color: #111;
   padding: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .card{
-  height: 400px;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   background-color: #ffff;
   border-radius: 30px;
   padding: 30px;
@@ -27,6 +29,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 
 }
 
@@ -58,19 +61,26 @@ body{
   border-top: 1px solid black;
   padding-top: 10px;
 }
-
-.center{
-  background-color: red;
-   padding: 0px;
-  margin: 0px;
-  
-}
-
 .center h3{
   font-size: 15px;
   font-weight: 500;
- 
+}
+.center .tag{
+  display: flex;
+  gap: 20px;
+  padding: 0px;
 
+
+}
+.center .tag h4{
+  background-color: black;
+  font-size: 12px;
+  background-color: #dadada;
+  padding: 4px 6px;
+  border: 1px solid #dadada;
+  font-weight: 500;
+  border-radius: 5px;
+  
 }
 
 .center h2{
@@ -82,6 +92,18 @@ body{
   color: #8b8b8b;
 }
 
-.bottom .tag{
-  
+.bottom button{
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.bottom h3{
+  font-size: 17px;
+}
+.bottom p{
+  font-size: 10px;
+  color: #8b8b8b;
 }
