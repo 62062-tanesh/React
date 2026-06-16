@@ -4,11 +4,11 @@ import User from "./Components/User.jsx";
 
 const App = () => {
 
-  const jobs = [
+ const jobs = [
   {
-    brandLogo: "https://logo.clearbit.com/google.com",
+    brandLogo: "https://cdn.simpleicons.org/google",
     companyName: "Google",
-    datePosted: "2025-06-15",
+    datePosted: "1 day ago",
     location: "Bangalore, India",
     pay: "₹18 LPA",
     post: "Frontend Developer",
@@ -16,9 +16,9 @@ const App = () => {
     tag2: "JavaScript"
   },
   {
-    brandLogo: "https://logo.clearbit.com/microsoft.com",
+    brandLogo: "https://static.vecteezy.com/system/resources/previews/028/339/965/original/microsoft-icon-logo-symbol-free-png.png",
     companyName: "Microsoft",
-    datePosted: "2025-06-14",
+    datePosted: "2 days ago",
     location: "Hyderabad, India",
     pay: "₹22 LPA",
     post: "Software Engineer",
@@ -26,9 +26,9 @@ const App = () => {
     tag2: "Azure"
   },
   {
-    brandLogo: "https://logo.clearbit.com/amazon.com",
+    brandLogo: "https://companieslogo.com/img/orig/AMZN-e9f942e4.png?t=1740113564",
     companyName: "Amazon",
-    datePosted: "2025-06-13",
+    datePosted: "3 days ago",
     location: "Chennai, India",
     pay: "₹20 LPA",
     post: "Full Stack Developer",
@@ -36,19 +36,19 @@ const App = () => {
     tag2: "MongoDB"
   },
   {
-    brandLogo: "https://logo.clearbit.com/netflix.com",
+    brandLogo: "https://cdn.simpleicons.org/netflix",
     companyName: "Netflix",
-    datePosted: "2025-06-12",
+    datePosted: "4 days ago",
     location: "Remote",
-    pay: "$120K",
+    pay: "₹17 LPA",
     post: "Frontend Engineer",
     tag1: "TypeScript",
     tag2: "React"
   },
   {
-    brandLogo: "https://logo.clearbit.com/adobe.com",
+    brandLogo: "https://www.pngall.com/wp-content/uploads/13/Adobe-Logo-PNG-Picture.png",
     companyName: "Adobe",
-    datePosted: "2025-06-11",
+    datePosted: "5 days ago",
     location: "Noida, India",
     pay: "₹16 LPA",
     post: "UI Developer",
@@ -56,9 +56,9 @@ const App = () => {
     tag2: "React"
   },
   {
-    brandLogo: "https://logo.clearbit.com/meta.com",
+    brandLogo: "https://cdn.simpleicons.org/meta",
     companyName: "Meta",
-    datePosted: "2025-06-10",
+    datePosted: "6 days ago",
     location: "Remote",
     pay: "$140K",
     post: "React Developer",
@@ -66,9 +66,9 @@ const App = () => {
     tag2: "GraphQL"
   },
   {
-    brandLogo: "https://logo.clearbit.com/spotify.com",
+    brandLogo: "https://cdn.simpleicons.org/spotify",
     companyName: "Spotify",
-    datePosted: "2025-06-09",
+    datePosted: "1 week ago",
     location: "Stockholm, Sweden",
     pay: "$95K",
     post: "Frontend Engineer",
@@ -76,9 +76,9 @@ const App = () => {
     tag2: "Redux"
   },
   {
-    brandLogo: "https://logo.clearbit.com/airbnb.com",
+    brandLogo: "https://cdn.simpleicons.org/airbnb",
     companyName: "Airbnb",
-    datePosted: "2025-06-08",
+    datePosted: "1 week ago",
     location: "Remote",
     pay: "$110K",
     post: "Web Developer",
@@ -86,9 +86,9 @@ const App = () => {
     tag2: "Node.js"
   },
   {
-    brandLogo: "https://logo.clearbit.com/uber.com",
+    brandLogo: "https://cdn.simpleicons.org/uber",
     companyName: "Uber",
-    datePosted: "2025-06-07",
+    datePosted: "2 weeks ago",
     location: "Pune, India",
     pay: "₹19 LPA",
     post: "Frontend Developer",
@@ -96,9 +96,9 @@ const App = () => {
     tag2: "TypeScript"
   },
   {
-    brandLogo: "https://logo.clearbit.com/linkedin.com",
+    brandLogo: "https://static.vecteezy.com/system/resources/previews/023/986/970/original/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png",
     companyName: "LinkedIn",
-    datePosted: "2025-06-06",
+    datePosted: "2 weeks ago",
     location: "Bangalore, India",
     pay: "₹24 LPA",
     post: "Software Development Engineer",

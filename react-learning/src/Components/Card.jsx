@@ -3,7 +3,6 @@ import { Bookmark } from "lucide-react";
 
 const Card = (props) => {
 
-    // console.log(props.Company)
   return (
     <div className="card">
         <div>
@@ -22,14 +21,14 @@ const Card = (props) => {
             </h3>
             <h2>{props.Post}</h2>
             <div className="tag">
-              <h4>Part Time</h4>
-              <h4>Senior level</h4>
+              <h4>{props.Tag1}</h4>
+              <h4>{props.Tag2}</h4>
             </div>
           </div>
         </div>
         <div className="bottom">
           <div>
-            <h3>$120/hr</h3>
+            <h3>{props.Pay}</h3>
             <p>Mumbai, India</p>
           </div>
           <button>Apply Now</button>
