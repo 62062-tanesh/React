@@ -7,13 +7,13 @@ const App = () => {
   const arr = [
     {
       
-      img : 'https://images.pexels.com/photos/5717546/pexels-photo-5717546.jpeg',
+      img : 'https://images.pexels.com/photos/8512190/pexels-photo-8512190.jpeg',
       intro : 'This is working in the field of construction and she is pro in that. ',
       tag : 'Satisfied'
 
     },{
 
-      img : 'https://images.pexels.com/photos/5717329/pexels-photo-5717329.jpeg',
+      img : 'https://images.pexels.com/photos/28208358/pexels-photo-28208358.jpeg',
       intro : 'This is working in the Corporate Tradition.',
       tag : 'Not Satisfied'
 
