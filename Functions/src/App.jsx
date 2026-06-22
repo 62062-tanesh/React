@@ -1,13 +1,15 @@
 import React from 'react'
 
 const App = () => {
-  function btnClicked(){
-    console.log('button is clicked.');
-    
+  function inputChanging() {
+    console.log('user is typing')
   }
+
   return (
     <div >
-      <button className='bg-red-500 m-20 p-3 rounded-full text-white font-bold'  onClick={btnClicked}>Button</button>
+      <input onChange={function (ele){
+        inputChanging(ele.target.value)
+      }} type="text" placeholder='Enter Something' id='data' className='p-5 m-10' />
     </div>
   )
 }
