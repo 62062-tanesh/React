@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Section from './Component/Section'
 
 const App = () => {
 
@@ -18,6 +19,8 @@ const App = () => {
       <h1 className=' bg-gray-400 text-5xl m-10 p-10'>{Num}</h1>
       <button className='bg-gray-300 m-5 p-3' onClick={Increase}>Increase</button>
       <button className='bg-gray-300 m-5 p-3' onClick={Decrease}>Decrease</button>
+
+      <Section/>
     </div>
   )
 }
