@@ -13,6 +13,7 @@ const submitHandler = (e) =>{
 const [detail, setDetail] = useState('')
 
 
+
   return (
     <div className="h-screen bg-gray-100 lg:flex">
       
